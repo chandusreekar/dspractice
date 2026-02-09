@@ -19,7 +19,6 @@ public class BinarySearch1 {
 		int lastIndex = nums.length -1;
 		while(firstIndex <= lastIndex) {
 			int mid = (firstIndex + lastIndex)/2;
-			
 			if(nums[mid] == target) {
 				 return  mid;
 			}else if(nums[mid] < target) {

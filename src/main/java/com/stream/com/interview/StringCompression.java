@@ -18,6 +18,7 @@ public class StringCompression {
                         }
                 ));
         System.out.println(result);
+
         
         String str1 = "Java programming";
         

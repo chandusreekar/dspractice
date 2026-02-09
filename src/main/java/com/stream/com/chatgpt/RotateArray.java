@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 public class RotateArray {
 	public static void main(String[] args) {
 		int[] input = { 1, 2, 3, 4, 5, 6 };
-		int k = 5; // number of elements to rotate
+		int k = 2; // number of elements to rotate
 
 		int n = input.length;
 		int[] rotated = new int[n];
